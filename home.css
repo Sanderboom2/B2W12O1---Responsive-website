@@ -1,0 +1,39 @@
+html{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+body{
+	margin: 0 0;
+}
+/*Info bar*/
+#info{
+	background-color: yellow;
+	width: 100%;
+	position: sticky;
+
+}
+.info-bars{
+	font-size: 5rem;
+	color: white;
+}
+/*Info bar*/
+/*Menu*/
+#menu{
+	background-color: white;
+}
+.menu-bars{
+	font-size: 5rem;
+	color: black;
+}
+.menu-logo{
+	position: absolute;
+	right: 75px;
+}
+/*Menu*/
+.slider{
+	width: 100%;
+	height: 400px;
+}
+.fa-car-side{
+	color: darkgray;	
+}
