@@ -1,0 +1,24 @@
+#knop{
+	width: 50px;
+	background-color: gray;
+	text-align: center;
+	cursor: pointer;
+}
+#menu{
+	padding: 0;
+	list-style-type: none;
+	height: 0px;
+	overflow: hidden;
+}
+
+@media(min-width:768px){
+	#knop{
+		display: none;
+	}
+	#menu>li{
+		display: inline-block;
+	}
+	#menu{
+		height: auto !important;
+	}
+}

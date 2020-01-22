@@ -10,24 +10,34 @@ body{
 	background-color: yellow;
 	width: 100%;
 	position: sticky;
+	height: 6rem
 
 }
 .info-bars{
-	font-size: 5rem;
+	font-size: 3rem;
 	color: white;
+	border: solid white 2px;
+	padding: 20px 40px;
+	margin: 15px 0 0 40px;
 }
 /*Info bar*/
 /*Menu*/
 #menu{
 	background-color: white;
+	height: 6rem
 }
 .menu-bars{
-	font-size: 5rem;
-	color: black;
+	font-size: 3rem;
+	color: gray;
+	border: solid gray 2px;
+	padding: 20px 40px;
+	margin: 15px 0 0 40px;
 }
 .menu-logo{
 	position: absolute;
+	top: 155px;
 	right: 75px;
+	height: 5rem
 }
 /*Menu*/
 .slider{
@@ -35,5 +45,60 @@ body{
 	height: 400px;
 }
 .fa-car-side{
-	color: darkgray;	
+	color: gray;
+	font-size: 3rem;
+	margin: 50px 0 30px 45px;	
+}
+hr{
+	width: 90%
+}
+#title1{
+	position: absolute;
+	top: 730px;
+	left: 180px;
+}
+#text1{
+	margin: 30px 50px;
+}
+#gratis{
+	background-color: #FFC113;
+	height: 130px;
+	width: 80%;
+	border: none;
+	font-size: 3rem;
+	margin-left: 90px;
+}
+.fa-map{
+	color: gray;
+	font-size: 3rem;
+	margin: 50px 0 30px 45px;	
+}
+#title2{
+	position: absolute;
+	top: 1770px;
+	left: 180px;
+}
+#text2{
+	margin: 30px 50px;
+}
+.fa-graduation-cap{
+	color: gray;
+	font-size: 3rem;
+	margin: 50px 0 30px 45px;	
+}
+#title3{
+	position: absolute;
+	top: 2640px;
+	left: 180px;
+}
+#text3{
+	margin: 30px 50px;
+}
+iframe{
+	margin: 0 120px;
+}
+@media(min-width:768px){
+	.menu-bars{
+		display: none;
+	}
 }
