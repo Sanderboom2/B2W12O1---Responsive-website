@@ -10,39 +10,48 @@ body{
 	background-color: yellow;
 	width: 100%;
 	position: sticky;
-	height: 6rem
+	height: 3rem
 
 }
 .info-bars{
-	font-size: 3rem;
+	font-size: 1rem;
 	color: white;
 	border: solid white 2px;
-	padding: 20px 40px;
+	padding: 10px 20px;
 	margin: 15px 0 0 40px;
 }
-/*Info bar*/
+.infoicons{
+	font-size: 0;
+}
+.media{
+	font-size: 0;
+}
+
 /*Menu*/
 #menu{
 	background-color: white;
-	height: 6rem
+	height: 3rem
 }
 .menu-bars{
-	font-size: 3rem;
+	font-size: 1rem;
 	color: gray;
 	border: solid gray 2px;
-	padding: 20px 40px;
+	padding: 10px 20px;
 	margin: 15px 0 0 40px;
 }
 .menu-logo{
 	position: absolute;
-	top: 155px;
-	right: 75px;
-	height: 5rem
+	top: 72px;
+	right: 35px;
+	height: 3rem
 }
-/*Menu*/
-.slider{
+.menu-buttons{
+	display: none;
+}
+
+.slider>img{
 	width: 100%;
-	height: 400px;
+	height: 250px;
 }
 .fa-car-side{
 	color: gray;
@@ -52,9 +61,12 @@ body{
 hr{
 	width: 90%
 }
+h1{
+	font-size: 2em
+}
 #title1{
 	position: absolute;
-	top: 730px;
+	top: 430px;
 	left: 180px;
 }
 #text1{
@@ -65,7 +77,7 @@ hr{
 	height: 130px;
 	width: 80%;
 	border: none;
-	font-size: 3rem;
+	font-size: 2rem;
 	margin-left: 90px;
 }
 .fa-map{
@@ -75,7 +87,7 @@ hr{
 }
 #title2{
 	position: absolute;
-	top: 1770px;
+	top: 1050px;
 	left: 180px;
 }
 #text2{
@@ -88,7 +100,7 @@ hr{
 }
 #title3{
 	position: absolute;
-	top: 2640px;
+	top: 1520px;
 	left: 180px;
 }
 #text3{
@@ -97,8 +109,150 @@ hr{
 iframe{
 	margin: 0 120px;
 }
+/*desktop*/
 @media(min-width:768px){
-	.menu-bars{
-		display: none;
-	}
+.fa-bars{
+	font-size: 0px;
+	border: none;
+}
+	/*Info bar*/
+#info{
+	background-color: yellow;
+	width: 100%;
+	position: sticky;
+	height: 2rem
+}
+.infoicons{
+	font-size: 20px;
+	margin-top: 15px;
+	color: #545454;
+	margin-left: 100px;
+}
+.media{
+	font-size: 20px;
+	margin-top: 15px;
+	color: #545454;
+}
+.fa-facebook-square{
+	margin-left: 100px;
+}
+
+/*Menu*/
+#menu{
+	background-color: white;
+	height: 5rem
+}
+.menu-logo{
+	position: absolute;
+	top: 2rem;
+	left: 35px;
+	height: 5rem
+}
+.menu-buttons{
+	display: inline-block;
+	margin-left: 420px;
+	margin-top: 50px; 
+}
+.menu-buttons>button{
+	border: none;
+	background-color: white;
+	font-size: 0.8rem;
+	color: #545454;
+}
+.slider>img{
+	width: 100%;
+	height: 600px;
+}
+.slider>h1{
+	background-color: yellow;
+	color: #545454;
+	width: 300px;
+	text-align: center;
+	position: absolute;
+	top: 530px;
+	left: 550px;
+}
+.slider>p{
+ 	background-color: yellow;
+	color: #545454;
+	width: 500px;
+	text-align: center;
+	position: absolute;
+	top: 600px;
+	left: 450px;
+}
+h1{
+	font-size: 2em
+}
+hr{
+	display: none;
+}
+.fa-car-side{
+	color: gray;
+	font-size: 3rem;
+	margin: 50px 0 30px 45px;	
+}
+#title1{
+	position: absolute;
+	top: 810px;
+	left: 180px;
+}
+#text1{
+	margin: 30px 50px;
+	width: 30%;
+}
+#gratis{
+	background-color: #FFC113;
+	height: 90px;
+	width: 30%;
+	border: none;
+	font-size: 2rem;
+	margin-left: 50px;
+}
+.fa-map{
+	color: gray;
+	font-size: 3rem;
+	margin: 50px 0 30px 45px;
+	position: relative;
+	bottom: 590px;	
+	left: 500px;
+}
+#title2{
+	position: absolute;
+	top: 810px;
+	left: 670px;
+}
+#text2{
+	margin: 30px 50px;
+	width: 30%;
+	position: relative;
+	bottom: 590px;	
+	left: 500px;
+}
+.fa-graduation-cap{
+	color: gray;
+	font-size: 3rem;
+	margin: 50px 0 30px 45px;
+	position: relative;
+	bottom: 1070px;	
+	left: 1000px;
+}
+#title3{
+	position: absolute;
+	top: 810px;
+	left: 1160px;
+}
+#text3{
+	margin: 30px 50px;
+	width: 30%;
+	position: relative;
+	bottom: 1070px;	
+	left: 1000px;
+}
+iframe{
+	margin-left: 70px;
+	position: relative;
+	bottom: 800px;
+	width: 90%
+}
 }
